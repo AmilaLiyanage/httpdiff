@@ -1,6 +1,6 @@
 // httpdiff: performs two HTTP requests and diffs the responses
 //
-// Copyright (c) 2015 John Graham-Cumming
+// Copyright (c) 2015 John Graham-Cumming test
 package main
 
 import (
