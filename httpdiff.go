@@ -56,8 +56,8 @@ func vsi(a, b int, f string, v ...interface{}) bool {
 	}
 	return notsame
 }
-
-// do an HTTP request to a server and returns the response object and the
+// request redirec two nodes at once
+// do an HTTP request to a server and returns the response object and the 
 // complete response body. There's no need to close the response body as this
 // will have been done.
 func do(method, req_body, host, ua, uri string, extraHeaders map[string]string) (*http.Response, []byte, error) {
